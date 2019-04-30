@@ -1,4 +1,4 @@
-# Project Statement
+# Overview
 
 Home4U is an application that will provide rental housing to students, corporates and people in need. This is a hassle-free application that will allow users to post new houses and buy posted houses on rent as per their budgets and needs.
 
