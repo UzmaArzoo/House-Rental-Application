@@ -61,4 +61,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Design Document Model
 
-https://github.com/neu-mis-info6150-fall-2018/final-project-rise/blob/master/DomainModelDiagram.svg
+https://github.com/UzmaArzoo/INFO-6150/blob/master/DomainModelDiagram.svg
