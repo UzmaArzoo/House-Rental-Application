@@ -1,0 +1,17 @@
+<div class= "jumbotron main_container" ng-controller="favoriteController" *ngFor="let favpost of favPost">
+  <mat-card class="card-picture">
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title>{{favpost.title}}</mat-card-title>
+      <mat-card-subtitle>{{favpost.propertyType}}</mat-card-subtitle>
+      <mat-card-subtitle>{{favpost.streetAddress1}}  {{favpost.streetAddress2}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://media-cdn.trulia-local.com/neighborhood-media-service-prod/ma/boston/south-dorchester/1371-ma_bos_south_dorchester_275424_151_1200x_cfit.jpg">
+    <mat-card-content>
+      <p>
+        Posted By : {{favpost.firstname}}<br>
+        Price: {{favpost.price}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
